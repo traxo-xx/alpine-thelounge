@@ -1,0 +1,6 @@
+thelounge:
+  build: .
+  volumes:
+    - /path/to/host/directory:/home/lounge/data
+  ports:
+    - "9000:9000"
