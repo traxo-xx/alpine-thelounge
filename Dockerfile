@@ -16,6 +16,9 @@ ENV LOUNGE_HOME /home/lounge/data
 # Expose HTTP
 EXPOSE 9000
 
+# Make LOUNGE_HOME available as a volume.
+VOLUME /home/lounge/data
+
 RUN npm install -g thelounge
 
 # Drop root.
