@@ -1,3 +1,6 @@
+# This is a modified Dockerfile which starts with a fresh Alpine image and installs node.js and The Lounge.
+# The original can be found at https://github.com/thelounge/lounge/blob/master/Dockerfile
+
 FROM alpine:latest
 MAINTAINER Hannes Stöven <hstoeven@mailbox.org>
 
